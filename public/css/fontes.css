@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('../fonts/opensans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	font-family: 'open_sansregular' !important;
+}
+
+b{
+  font-family: 'open_sansbold' !important;
+}
+
+i{
+  font-family: 'open_sansitalic';
+}
+/* CORES */
+
+.vermelho{
+	color:#a90f0f;
+}
+
+.azul{
+	color:#319BB3;
+}
+
+.laranja{
+	color:#c25d19;
+}
+
+.branco{
+	color:#FFF;
+}
+
+.preto{
+	color:#000;
+}
+
+.cinza{
+	color: #333333;
+}
+
+/* FIM CORES */
+
+/* TAMANHOS */
+
+.f10{
+	font-size:0.625em !important;
+}
+
+.f12{
+	font-size:0.750em !important;
+}
+
+.f13{
+	font-size:0.813em !important;
+}
+
+.f14{
+	font-size:0.875em !important;
+}
+
+.f16{
+	font-size:1em !important;
+}
+
+.f17{
+	font-size:1.063em !important;
+}
+
+.f18{
+	font-size:1.125em !important;
+	line-height:22pt;
+}
+
+.f20{
+	font-size:1.250em !important;
+}
+
+.f22{
+	font-size:1.375em !important;
+}
+
+.f23{
+	font-size:1.438em !important;
+}
+
+.f24{
+	font-size:1.500em !important;
+}
+
+.f25{
+	font-size:1.563em !important;
+}
+
+.f26{
+	font-size:1.625em !important;
+}
+
+.f28{
+	font-size:1.750em !important;
+	line-height:35px;
+}
+
+.f30{
+	font-size:1.875em !important;
+	line-height:35px;
+}
+
+.f32{
+	font-size:2em !important;
+}
+
+.f34{
+	font-size:2.125em !important;
+}
+
+.f36{
+	font-size:2.250em !important;
+}
+
+.f40{
+	font-size:2.500em !important;
+	line-height:1em;
+}
+
+.f41{
+	font-size:2.563em !important;
+	line-height:1em;
+}
+
+.f42{
+	font-size:2.625em !important;
+	line-height:1em;
+}
+
+.f44{
+	font-size:2.750em !important;
+	line-height:1em;
+}
+
+.f48{
+	font-size:3em !important;
+	line-height:45px;
+}
+
+.f60{
+	font-size:3.750em !important;
+	line-height:55px;
+}
+
+.f65{
+	font-size:4.063em !important;
+	line-height:55px;
+}
+
+.f72{
+	font-size:4.500em;
+	line-height:55px;
+}
+
+.f80{
+	font-size:5.000em !important;
+}
+
+.f90{
+	font-size:5.625em !important;
+	line-height:1em;
+}
+
+/* FIM TAMANHOS */

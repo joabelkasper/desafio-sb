@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END RESET */
+
+/* HEADER */
+
+header#header{
+	position: relative;
+	width: 100%;
+	height: 90px;
+	background-color: #333333;
+}
+
+div#logo{
+	position: relative;
+	margin: 30px 0 0 0;
+}
+
+div#logo:hover a{
+	text-decoration: none;
+}
+
+div#logo:hover h1{
+	color: #319BB3;
+}
+
+nav#nav{
+	position: relative;
+	margin: 38px 0 0 0;
+}
+
+nav#nav ul > li{
+	position: relative;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+nav#nav ul > li > a {
+	font-size:1.0em;
+	color: #FFF;
+}
+
+nav#nav ul > li > a:hover {
+	color: #319BB3;
+	text-decoration: none;
+}
+
+div#novo-tweet{
+	position: relative;
+	margin: 30px 0 0 0;
+	width: 100%;
+}
+
+div#novo-tweet input{
+	width: 450px !important;
+}
+
+/* END HEADER */
+
+/* HOME */
+
+div.titulo-padrao-sb{
+	position: relative;
+	margin:30px 0 30px 0;
+}
+
+ul{
+	margin-left: 40px;
+}
+
+ul > li{
+	list-style-type: circle;
+}
+
+div.imagem-tela{
+	position: relative;
+	width: 300px;
+	height: 200px;
+	padding: 20px;
+	border: 1px solid #000;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+div.imagem-tela img{
+	width: 100%;
+}
+
+div.imagem-tela p{
+	margin: 15px 0 0 0;
+}	
+
+/* FIM HOME */
+
+/* TODOS TWEETS */
+
+div#tweets{
+	position: relative;
+	margin: 40px 0 0 0;
+}
+
+div.tweet{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	background-color: #319BB3;
+	color: #FFF;
+	margin: 0 0 30px 0;
+}
+
+/* FIM TODOS TWEETS */
+
+@media screen and (max-width: 1200px) {
+
+	header#header{
+		height: auto;
+		padding-right: 20px 0 20px 0;
+	}	
+
+	div#logo{
+		text-align: center;
+	}
+
+	nav#nav{
+		text-align: center;
+	}	
+
+	div#novo-tweet{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	div#novo-tweet input{
+		width: 100% !important;
+	}
+
+}
